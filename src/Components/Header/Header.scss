@@ -1,0 +1,27 @@
+@import "../../styles/utils";
+
+.Header {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include respond-to-sm {
+      flex-direction: column;
+      transform: scale(0.8);
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__profile {
+    padding: 6.4px 10px;
+  }
+}
