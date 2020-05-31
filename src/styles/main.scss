@@ -1,6 +1,15 @@
+#root-container {
+  height: fit-content;
+}
+
 .container {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 32px auto;
+}
+
+.main-content {
+  width: 1140px;
+  margin: 64px auto;
 }
 
 ul,

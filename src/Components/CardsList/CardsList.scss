@@ -1,0 +1,38 @@
+.CardsList {
+  display: block;
+
+  &__title {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 0;
+  }
+
+  &__items {
+    display: flex;
+    min-width: 100%;
+    min-height: fit-content;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 4px 4px 14px;
+  }
+
+  &__items::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__item {
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 250px;
+
+    &__favIcon {
+      width: fit-content;
+      float: right;
+      position: absolute;
+      top: 12px;
+      right: 14px;
+      padding: 2px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.ContentPage {
+  min-height: 720px;
+  justify-content: center;
+}
+
+.leftImg, .rightImg {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+
+  #left, #right {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.leftImg {
+  float: left;
+}
+
+.rightImg {
+  float: right;
+  justify-content: center;
+  vertical-align: middle;
+}
